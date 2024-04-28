@@ -46,6 +46,7 @@ if (accountHolder.pin === pinCode) {
             ]);
             if (selectAmount.selectamount === "1000") {
                 if (selectAmount.selectamount <= currentBalance) {
+                    console.log(`You have successfully withdrawed 1000!`);
                     console.log(`Your remaining balance is ${currentBalance - 1000}`);
                 }
                 else {
@@ -54,6 +55,7 @@ if (accountHolder.pin === pinCode) {
             }
             else if (selectAmount.selectamount === "2000") {
                 if (selectAmount.selectamount <= currentBalance) {
+                    console.log(`You have successfully withdrawed 2000!`);
                     console.log(`Your remaining balance is ${currentBalance - 2000}`);
                 }
                 else {
@@ -62,6 +64,7 @@ if (accountHolder.pin === pinCode) {
             }
             else if (selectAmount.selectamount === "5000") {
                 if (currentBalance >= selectAmount.selectamount) {
+                    console.log(`You have successfully withdrawed 5000!`);
                     console.log(`Your remaining balance is ${currentBalance - 5000}`);
                 }
                 else {
@@ -70,6 +73,7 @@ if (accountHolder.pin === pinCode) {
             }
             else if (selectAmount.selectamount === "10000") {
                 if (currentBalance >= selectAmount.selectamount) {
+                    console.log(`You have successfully withdrawed 10000!`);
                     console.log(`Your remaining balance is ${currentBalance - 10000}`);
                 }
                 else {
@@ -78,6 +82,7 @@ if (accountHolder.pin === pinCode) {
             }
             else if (selectAmount.selectamount === "20000") {
                 if (currentBalance >= selectAmount.selectamount) {
+                    console.log(`You have successfully withdrawed 20000!`);
                     console.log(`Your remaining balance is ${currentBalance - 20000}`);
                 }
                 else {
@@ -86,6 +91,7 @@ if (accountHolder.pin === pinCode) {
             }
             else if (selectAmount.selectamount === "50000") {
                 if (currentBalance >= selectAmount.selectamount) {
+                    console.log(`You have successfully withdrawed 50000!`);
                     console.log(`Your remaining balance is ${currentBalance - 50000}`);
                 }
                 else {
@@ -94,6 +100,7 @@ if (accountHolder.pin === pinCode) {
             }
             else if (selectAmount.selectamount === "100000") {
                 if (currentBalance >= selectAmount.selectamount) {
+                    console.log(`You have successfully withdrawed 100000!`);
                     console.log(`Your remaining balance is ${currentBalance - 100000}`);
                 }
                 else {
@@ -110,6 +117,7 @@ if (accountHolder.pin === pinCode) {
                 },
             ]);
             if (enterAmount.enteramount <= currentBalance) {
+                console.log(`You have successfully withdrawed ${enterAmount.enteramount}!`);
                 console.log(`Your remaining balance is ${(currentBalance -=
                     enterAmount.enteramount)}`);
             }
