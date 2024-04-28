@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let currentBalance = 10000;
 let pinCode = 101323;
